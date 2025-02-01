@@ -10,5 +10,9 @@
       "src": "/api",
       "dest": "index.py"
     }
-  ]
+  ],
+  "functions": {
+    "index.py": {
+      "includeFiles": ["q-vercel-python.json"]
+    }
 }
